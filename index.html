@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chargers Defense</title>
+    
+    <style>
+
+        /* Adds two different fonts */
+            @font-face {
+        font-family: Chargers;
+        src: url(../fonts/Chargers.ttf);
+        }
+
+        @font-face {
+        font-family: Quicksand;
+        src: url(../fonts/Quicksand-Medium.ttf);
+        }
+
+        /* gives website background */
+        body {
+            background-image: url("../background_img/Defense-1.jpg");
+            background-size: cover;
+            overflow-x:hidden;
+        }
+
+        /* Edits Logo */
+        #logo {
+            transform: translate(47%, 60%);
+        }
+        /* Properties of Teamname */
+        #Teamname {
+            font-family: Chargers;
+            color: rgb(255, 194, 14);
+            font-size: 40px;
+            transform: translate(39%,60%);
+            text-shadow: 2px 2px 17px #000000;
+        }
+
+        #Stats {
+            font-family: Quicksand;
+            color: rgb(255, 194, 14);
+            width: 720px;
+        }
+
+        /* Modifies and Adds Border to top row of stats */
+        th {
+            border: solid;
+            text-align: center;
+            width: 300px;
+            text-shadow: 2px 2px 3px #000000;
+            color: rgb(255, 194, 14);
+        }
+
+        /* Modifies and Adds Borders to Players and stats */
+
+        td {
+            border: solid;
+            text-align: center;
+            color: rgb(255, 194, 14);
+            text-shadow: 2px 2px 3px #000000;
+        }
+
+        /* Moves the Whole Table */
+        #Stats {
+            transform: translate(85%,30%);
+        }
+
+        /* Edits Alohi's Summary as a whole */
+        #Alohi {
+            font-family: Quicksand;
+            color: rgb(255, 194, 14);
+            text-align: center;
+            white-space: normal;
+            width: 25%;
+            border: solid;
+            text-shadow: 2px 2px 3px #000000;
+            transform: translate(20%,20%);
+            font-size: medium;
+        }
+
+        /* Edits Derwin's Summary as a whole */
+        #Derwin {
+            font-family: Quicksand;
+            color: rgb(255, 194, 14);
+            text-align: center;
+            white-space: normal;
+            width: 25%;
+            border: solid;
+            text-shadow: 2px 2px 3px #000000;
+            transform: translate(160%,-40%);
+            font-size: medium;
+        }
+
+        /* Edits Khalil's Summary as a whole */
+        #Khalil {
+            font-family: Quicksand;
+            color: rgb(255, 194, 14);
+            text-align: center;
+            white-space: normal;
+            width: 25%;
+            border: solid;
+            text-shadow: 2px 2px 3px #000000;
+            transform: translate(290%,-185%);
+            font-size: medium;
+        }
+
+        /* Edits Tuli's Summary as a whole */
+        #Tuli {
+            font-family: Quicksand;
+            color: rgb(255, 194, 14);
+            text-align: center;
+            white-space: normal;
+            width: 25%;
+            border: solid;
+            text-shadow: 2px 2px 3px #000000;
+            transform: translate(290%,-190%);
+            font-size: medium;
+        }
+
+        #Zont {
+            font-family: Quicksand;
+            color: rgb(255, 194, 14);
+            text-align: center;
+            white-space: normal;
+            width: 25%;
+            border: solid;
+            text-shadow: 2px 2px 3px #000000;
+            transform: translate(20%,-280%);
+            font-size: medium;
+        }
+
+        /* Edits the Defensive Stats Button */
+        #DefensiveButton {
+            font-size: 50px;
+            width: 18%;
+            font-family: chargers;
+            background-color: rgb(255, 194, 14);
+            transform: translate(350%,60%);
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="logo">
+        <img src="../background_img/Logo.png" alt="Los Angeles Chargers Logo" height="100">
+    </div>
+    
+    <div id="Teamname">
+        <h1>Los Angeles Chargers</h1>
+    </div>
+
+
+    <!-- Table for 2023 Stats -->
+    <div id="Stats">
+        <table>
+            <tr>
+              <th>NAME</th>
+              <th>POSITION</th>
+              <th>TACKLES</th>
+              <th>SACKS</th>
+              <th>INT</th>
+              <th>Forced Fumbles</th>
+            </tr>
+            <tr>
+              <td>Derwin James</td>
+              <td>Safety/LB</td>
+              <td>125</td>
+              <td>2</td>
+              <td>1</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>Khalil Mack</td>
+              <td>Linebacker</td>
+              <td>74</td>
+              <td>18.0</td>
+              <td>0</td>  
+              <td>6</td>              
+            </tr>
+            <tr>
+              <td>Alohi Gilman</td>
+              <td>Safety</td>
+              <td>49</td>
+              <td>0</td>
+              <td>2</td>  
+              <td>3</td>              
+            </tr>
+            <tr>
+              <td>Tuli Tuipolotu</td>
+              <td>Linebacker</td>
+              <td>37</td>
+              <td>4.5</td>
+              <td>0</td>  
+              <td>2</td>              
+            </tr>
+            <tr>
+              <td>Asante Samuel Jr.</td>
+              <td>Cornerback</td>
+              <td>56</td>
+              <td>0</td>
+              <td>2</td>  
+              <td>0</td>              
+            </tr>
+          </table>
+    </div>
+
+    <!-- Player 2023 Summaries -->
+    <div class="" id="Alohi">
+        <h1>Alohi Gilman</h1>
+            <img src="../Player_Images/Alohi_Gilman.jpg" height="200" alt="Alohi Gilman in all white uniforms">
+            <p>
+                Alohi Gilman is the most improved player in the 2023 chargers defense from getting drafted 4th Round in the 2020 NFL draft, holding the 2nd string safety position from 2020-2022 to earning the starting role when Nasir Adderley unexpectedly retired from the NFL after a 4 year career. Alohi got his chance to prove his worth in 2022 at the last 5 games of the 2022 season when Nasir Adderley got benched, hes proven himself to be a producer in all of the stat categories being able to cover and tackle, Alohi in 2023 had earned himself the starting Safety Role opposite of Derwin James and played tremendeously with GRIT from week 1 to week 18, he was able to show what he is capable off. In the 2024 offseason Gilman is set to become a free-agent and losing him could be a big loss for the Chargers Defense. Alohi had finished his season with 49 tackles, 2 interception and 3 forced fumbles
+            </p>
+    </div>
+
+    <div class="Players" id="Derwin">
+        <h1>Derwin James Jr.</h1>
+        <img src="../Player_Images/derwin+james.jpg" height="250" alt="Derwin James in Powder Blues">
+        <p id="Derwin_Sum">
+            Derwin James is coming out of his worst season yet in his career finishing with a PFF Grade of 60.0 which is rare for a player in his caliber, Derwin finished with 125 total tackles 2 sacks and an interception which on paper does not look bad but when you take a look at the tape for his 2023 season it certainly shows that he was not at his best during his time with former Chargers Headcoach Brandon Staley. Derwin had a lot of roles to play during the 2023 season under Staley's complicated defensive scheme, Staley had him playing multiple positions at once ranging from Linebacker, Cornerback, Edge and his natural position at Safety, he does excel in all of those position but when you continue to change positions every drive then its creates a stressed player
+        </p>
+    </div>
+
+    <div class="Players" id="Khalil">
+        <h1>Khalil Mack</h1>
+        <img src="../Player_Images/Khalil_Mack.jpg" height="220" alt="Khalil Mack Rushing">
+        <p>
+            Khalil Mack's 2023 Season was unexpected, 18 Sacks (4th in the league), 6 Forced Fumbles (T-1st in the League) and 74 Tackles for a 32 year old who is way too crazy especially after finishing last season with 8 Sacks and 2 Forced Fumbles, In 2023 Mack Posted up a PFF Grade of 91.8 which is among the top grades for an Edge Rusher in the League, not only did he have one of the highest PFF Grades Among all Players in the League this season, He broke his previous Sack Record which was 15.0 back in 2015 with Divison Rival Oakland Raiders whom hed accumulated 6 of his 18 sacks in the first game agaisnt the Raiders in 2023 which had also tied him to the all time sack record in a game with 6 sacks
+        </p>
+    </div>
+
+    <div Class="Players" id="Tuli">
+        <h1>Tuli Tuipulotu</h1>
+        <img src="../Player_Images/Tuipolotu.jpg" alt="Tuli Tuipolotu">
+        <p>
+            The Chargers Hit Big when it came tod drafting Tuipolotu in the second round of the 2023 NFL Draft. Tuipolotu who came out of University of Southern California was projected not to start in the 2023 season and mainly a plug in player in certain downs but due to Joey Bosa's Injury who sidelined him for a few weeks Tuipolotu was given the starting role of Edge rusher opposite of  Khalil Mack. In Tuli's Rookie Season he finished with 51 QB Pressures (2nd among rookies), 4.5 Sacks and a High run-defense grade of 88.4 (4th). In 2023 Tuipolotu's role is expected to be bigger with the possibility of Joey Bosa getting cut or traded due to salary and cap complications. It is safe to say that the Chargers got their future star pass rusher. 
+        </p>
+    </div>
+
+    <div id="Zont">
+        <h1>Asante Samuel Jr.</h1>
+        <img src="../Player_Images/Zont.jpg" alt="Asante Samuel Jr." height="210">
+        <p>
+            Asante Samuel Jr. Throughout the 2023 season has faced many struggles with allowing big plays and causing pass interferance calls which held the Chargers Defense performance back but with that being said he was the Chargers best cover player when it comes to going 1 on 1 agaisnt a true Wide Out, He was the chargers best chance at Locking Down an elite receiver, He brings that dawg mentality into the field and that is what makes him special not letting people run around him because hes too "small", he has proven himself to be the Chargers #1 Corner and will continue to do so under experienced Head Coach Jim Harbaugh who will most definetly boost his production this upcoming 2024 season.
+        </p>
+    </div>
+
+    <!-- End of 2023 Player Summaries -->
+
+    <div id="DefensiveButton">
+        <a href="">2023 Defensive Stats</a>
+    </div>
+</body>
+</html>
